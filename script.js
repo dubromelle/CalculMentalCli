@@ -12,6 +12,7 @@ function tirageNombre(min, max) {
   document.getElementById(ID).value = valeur // autre possibilité
  }
 
+ //Lecture du nombre à convertir
  function lireNombre(ID) {
   return Number(document.getElementById(ID).value);
  }
